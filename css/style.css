@@ -1,10 +1,7 @@
-#column1{
-    background-color: pink;
-    /*opacity: .3;*/
-}
+
 body{
 
-     padding: 50px;
+     padding: 30px;
 
 }
 
@@ -59,11 +56,15 @@ img.miles{
 }
 
 .navy{
-    /*background: url("//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/330px-Seal_of_the_United_States_Department_of_the_Navy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/440px-Seal_of_the_United_States_Department_of_the_Navy.svg.png 2x");*/
+    background-image: url("//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/330px-Seal_of_the_United_States_Department_of_the_Navy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Seal_of_the_United_States_Department_of_the_Navy.svg/440px-Seal_of_the_United_States_Department_of_the_Navy.svg.png 2x");
     width: 100%;
-    background-color: black;
+    /*background-color: black;*/
 }
 
+#column1{
+    padding-left: 20px;
+    /*margin: 10px;*/
+}
 .intro{
     padding: 20px;
 }
