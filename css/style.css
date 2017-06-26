@@ -118,10 +118,11 @@ body{
     padding: 20px;
 }
 
-.supreme {
+/*.supreme {
    position: relative;
 }
 .supreme:after {
+    float: right;
     content : "";
     display: block;
     position: absolute;
@@ -130,20 +131,20 @@ body{
     background-image: url("http://sentireascoltare.com/wp-content/uploads/2015/09/john-coltrane-a-love-supreme-complete-masters.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 150px;
     height: 100%;
     opacity : 0.4;
     z-index: -1;
 
-}
-/*.supreme{
-    background-image: url("http://sentireascoltare.com/wp-content/uploads/2015/09/john-coltrane-a-love-supreme-complete-masters.jpg");
+}*/
+.supreme img{
+    /*background-image: url("http://sentireascoltare.com/wp-content/uploads/2015/09/john-coltrane-a-love-supreme-complete-masters.jpg");*/
     float: right;
     width: 150px;
     height: 150px;
-    opacity: .3;
+    opacity: .7;
 }    
-    */
+    
 
 /*.bodyimg{
         content : "";
