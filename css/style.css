@@ -17,9 +17,29 @@ body{
 
 /*}*/
 
+bodyimg img{
+    opacity: .1;
+}
 
 
+.bodyimg {
+   position: relative;
+}
+.bodyimg:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("http://2.bp.blogspot.com/-OpyoTQWVGok/TpYE74wDCbI/AAAAAAAAAMQ/zTDIQFraVVw/s640/a+love+supreme.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.05;
+    z-index: -1;
 
+}
 .bgimg {
    position: relative;
 }
@@ -34,9 +54,13 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
-    opacity : 0.2;
+    opacity : 0.4;
     z-index: -1;
 
+}
+.navbar{
+    opacity: .7;
+    color: black;
 }
 .jumbotron{
     /*padding: 100px;*/
@@ -52,15 +76,14 @@ body{
     width: 220px;
     height: 300px;
     padding-bottom: 80px;
+    padding-left: 10px;
 }
 
-img.miles{
-    float: right;
-}
+
 
 .navy img{
     /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/U.S._Naval_Reserve_portrait_of_Johnny_Coltrane_edit.jpg");*/
-    float: right;
+    float: left;
     width: 140px;
     height: 150px;
     /*size: 150px 150px;*/
@@ -70,6 +93,12 @@ img.miles{
     float: left;
     width: 150px;
     height: 200px;
+    opacity: .8;
+}
+.monkcoltrane img{
+    float: right;
+    width: 150px;
+    height: 150px;
 }
 
 #column1{
