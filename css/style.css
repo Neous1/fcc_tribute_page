@@ -17,9 +17,9 @@ body{
 
 /*}*/
 
-bodyimg img{
+/*bodyimg img{
     opacity: .1;
-}
+}*/
 
 
 .bodyimg {
@@ -74,9 +74,14 @@ bodyimg img{
 .jumbotron img{
     float: left;
     width: 220px;
-    height: 300px;
-    padding-bottom: 80px;
+    height: 280px;
+    padding-bottom: 70px;
     padding-left: 10px;
+}
+#stjohn{
+    float: right;
+    padding-right: 10px;
+
 }
 
 
@@ -90,7 +95,7 @@ bodyimg img{
     /*background-color: black;*/
 }
 .milecol img{
-    float: left;
+    float: right;
     width: 150px;
     height: 200px;
     opacity: .8;
@@ -103,6 +108,10 @@ bodyimg img{
 
 #column1{
     padding-left: 20px;
+    /*margin: 10px;*/
+}
+#column2{
+    padding-right: 20px;
     /*margin: 10px;*/
 }
 .intro{
